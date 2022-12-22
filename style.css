@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#win11video{
+    height: 125%;
+    width: 100%;
+    background-color: black;
+}
+
+.taskbar{
+    background-color: #663634;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 110;
+}
+
+.recyclebin{
+    position: absolute;
+    top: 125px;
+    left: 6px;
+    height: 8.5%;
+    width: 4.5%;
+}
+
+.namerb{
+    position: absolute;
+    top: 197px;
+    left: 6px;
+    color: whitesmoke;
+}
+
+.thispc{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    height: 9.5%;
+    width: 4%;
+    background-color: black;
+}
+
+.namepc{
+    position: absolute;
+    top: 93px;
+    left: 15px;
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.chrome{
+    position: absolute;
+    top: 238px;
+    left: 3px;
+    height: 7.7%;
+    width: 5.3%;
+    font-size: 17px;
+}
+
+.namechrome{
+    position: absolute;
+    top: 310px;
+    left: 18px;
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.startmenu{
+    position: absolute;
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.4s ease-in;
+}
+
+.startmenu img{
+    border-radius: 4px;
+}
